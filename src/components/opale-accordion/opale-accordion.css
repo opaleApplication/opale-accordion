@@ -1,0 +1,45 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  text-align: left;
+  border-radius: 4px 4px 4px 4px;
+  font-size: 4vw;
+  font-weight: bold;
+  outline: 0;
+  border: 0.5px solid rgb(88, 87, 87);
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -ms-border-radius: 4px 4px 4px 4px;
+  -o-border-radius: 4px 4px 4px 4px;
+  filter: drop-shadow(0 0 0.75rem rgb(88, 87, 87));
+  -webkit-filter: drop-shadow(0 0 0.75rem rgb(88, 87, 87));
+}
+
+span {
+  float: right;
+}
+
+.open {
+  display: block;
+  height: auto;
+  filter: drop-shadow(0 0 0.75rem rgb(88, 87, 87));
+}
+
+p {
+  padding: 18px;
+}
+
+.close {
+  display: none;
+}
