@@ -1,3 +1,7 @@
+> ⚠️ This project is no longer maintained.
+> It was an experimental Stencil.js accordion component for Ionic/Angular.
+
+
 # Installation
 ```
 $ npm i opale-accordion
